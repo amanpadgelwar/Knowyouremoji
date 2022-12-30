@@ -50,7 +50,7 @@ export default function App() {
         return (
           <span
             onClick={() => emojiClickHandler(emoji)}
-            key={emojisD}
+            key={emoji}
             style={{
               backgroundColor: "green",
               padding: "o.8rem",
